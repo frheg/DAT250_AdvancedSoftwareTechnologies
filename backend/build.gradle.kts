@@ -6,7 +6,7 @@ plugins {
 
 group = "com.dat250"
 version = "0.0.1-SNAPSHOT"
-description = "Composite Project for DAT250"
+description = "Backend for composite project for DAT250"
 
 java {
 	toolchain {
@@ -19,6 +19,7 @@ repositories {
 }
 
 dependencies {
+	implementation("org.springframework.boot:spring-boot-starter-data-mongodb")
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	developmentOnly("org.springframework.boot:spring-boot-docker-compose")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")

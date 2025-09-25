@@ -1,10 +1,10 @@
-package com.dat250.Dat250_Composite;
+package com.dat250.backend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Dat250CompositeApplicationTests {
+class BackendApplicationTests {
 
 	@Test
 	void contextLoads() {
