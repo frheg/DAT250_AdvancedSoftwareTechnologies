@@ -6,7 +6,7 @@ This repository contains a composite project of various technologies and framewo
 
 The project is built on Java Springboot, and will utilize the following technologies:
 
-- **Backend**: Java Springboot
+- **Backend**: Java Springboot (Spring Web)
 - **Frontend**: React
 - **Database**: MongoDB
 - **Vector Database**: Qdrant
